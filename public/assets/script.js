@@ -4,7 +4,7 @@ const ratesTable = document.querySelector(".rates-table");
 const ratesInfo = document.querySelector(".rates-info");
 const dateDOM = document.querySelector(".date");
 
-fetch("http://localhost:5000/rate",  {mode: 'cors'})
+fetch("http://localhost:5000/rates",  {mode: 'cors'})
     .then(res => res.text())
     .then(body => {
         // setTimeout(() => {
